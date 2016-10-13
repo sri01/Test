@@ -1,0 +1,16 @@
+import sys
+# Output:
+# sys.version:  3.5.2 |Anaconda 4.1.1 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)]
+# sys.version_info:  sys.version_info(major=3, minor=5, micro=2, releaselevel='final', serial=0)
+# sys.modules:  {'errno': <module 'errno' (built-in)>, 'builtins': <module 'builtins' (built-in)>,
+# 'encodings.cp1252': <module 'encodings.cp1252' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\cp1252.py'>,
+#  '_frozen_importlib': <module '_frozen_importlib' (frozen)>,
+# 'genericpath': <module 'genericpath' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\genericpath.py'>,
+# '_locale': <module '_locale' (built-in)>, 'encodings.latin_1': <module 'encodings.latin_1' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\latin_1.py'>, 'site': <module 'site' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\site.py'>, '_signal': <module '_signal' (built-in)>, 'nt': <module 'nt' (built-in)>, '_stat': <module '_stat' (built-in)>, '_imp': <module '_imp' (built-in)>, 'marshal': <module 'marshal' (built-in)>, 'codecs': <module 'codecs' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\codecs.py'>, 'winreg': <module 'winreg' (built-in)>, '_bootlocale': <module '_bootlocale' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\_bootlocale.py'>, '_codecs': <module '_codecs' (built-in)>, 'encodings.cp437': <module 'encodings.cp437' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\cp437.py'>, '_warnings': <module '_warnings' (built-in)>, '_thread': <module '_thread' (built-in)>, 'io': <module 'io' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\io.py'>, 'stat': <module 'stat' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\stat.py'>, '_sitebuiltins': <module '_sitebuiltins' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\_sitebuiltins.py'>, 'encodings.mbcs': <module 'encodings.mbcs' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\mbcs.py'>, 'abc': <module 'abc' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\abc.py'>, 'ntpath': <module 'ntpath' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\ntpath.py'>, '_collections_abc': <module '_collections_abc' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\_collections_abc.py'>, 'os.path': <module 'ntpath' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\ntpath.py'>, '__main__': <module '__main__' from 'C:/Users/sirisha/PycharmProjects/untitled/Test/ListComprehension/testVersionPython.py'>, 'zipimport': <module 'zipimport' (built-in)>, '_weakrefset': <module '_weakrefset' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\_weakrefset.py'>, 'sys': <module 'sys' (built-in)>, 'encodings.aliases': <module 'encodings.aliases' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\aliases.py'>, 'encodings.utf_8': <module 'encodings.utf_8' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\utf_8.py'>, 'encodings': <module 'encodings' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\encodings\\__init__.py'>, '_io': <module 'io' (built-in)>, '_frozen_importlib_external': <module '_frozen_importlib_external' (frozen)>, 'sysconfig': <module 'sysconfig' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\sysconfig.py'>, 'os': <module 'os' from 'C:\\Users\\sirisha\\Anaconda3\\lib\\os.py'>, '_weakref': <module '_weakref' (built-in)>}
+#
+# Process finished with exit code 0
+
+print("sys.version: ",sys.version)
+print("sys.version_info: ",sys.version_info)
+print("sys.modules: ",sys.modules)
+
